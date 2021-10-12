@@ -1,0 +1,12 @@
+/*saveInfo()
+kullanıcıdan birçok kimlik numarası isim adres ve telefon alin.
+ kimlik numarasını key olarak, diğer bilgileri value olarak bir map edopolayin.
+  ayni kimlik numarası ile ilgili bilgi girilmesini engelleyin.
+  getInfo kimlik numarasını girerek  kullanıcının bilgilerine ulaşın olmayan kimlik numarası
+  olmayan kimlik numarası girilirse kullanıcıya hata mesajı verim
+  removeInfo()
+kimlik numarasını girerek data silin.
+Girilen  kimlik numarası yoksa kullaniciya hata mesajı verin
+Collection boş ise kullanıcıya atar mesajı verin
+selectOption method olusturun
+yukaridaki 3 methidu programi sonlandirana kadar secme hakki verin */

@@ -1,0 +1,20 @@
+EMAIL APPLICATION
+IT Support Uzmanisin
+yeni ise baslayanlar icin bir email hesabi yaratmak görevin
+Application su kriterler icermeli;
+1)Syntax=fistname.lastname@department.company.com
+2)Department(Bolum) belirt sales, development, accounting gibi
+3)Sifre icin String tipte random bir sifre olustur
+4)Set methodlar olustur
+-sifreyi degistirmek
+-mail box kapasitesini düzenlemek
+-alternatif bir mail adresi tanimlamak icin
+
+5)get methodlar olustur
+-ismi
+-emaili
+-mailbox kapasitesini göstermesi icin.
+
+2 klasta yapilir
+1 main
+digeri private fields cons ve methodlarini icerecek
