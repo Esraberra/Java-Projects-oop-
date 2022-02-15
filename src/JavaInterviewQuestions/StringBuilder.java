@@ -1,12 +1,15 @@
 package JavaInterviewQuestions;
 
 import java.util.*;
-import java.util.stream.Stream;
+
 
 public class StringBuilder {
 
 
     private static Object Arrays;
+
+    public StringBuilder(List<String> list) {
+    }
 
     public static void main(String[] args) {
 
@@ -24,8 +27,13 @@ public class StringBuilder {
 
 //listteki kelimelerin her birisi ters yazilmis halde tekrar listelensin
 
+        for (int i = list.size()-1; i >= 0 ; i--) {
 
 
-        list.stream().map(t->t.split(" ")).distinct().forEach(System.out::println);
+
+
+        }
+
+
     }
 }
