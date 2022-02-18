@@ -1,25 +1,24 @@
 package javaProblemsForAutomation;
 
+import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
 public class LinkedHashMapv {
+
     public static void main(String[] args) {
-        LinkedHashMap<Integer, String> hm = new LinkedHashMap<Integer, String>();
-
-        hm.put(100, "Rajendra");
-        hm.put(101, "Lamror");
-        hm.put(102, "Technolamror");
-        System.out.println(hm);
-
-        for (Map.Entry m : hm.entrySet()) {
-
-            System.out.println(m.getKey() + " " + m.getValue());
-
-            {
-
-            }
+        LinkedHashMap< Integer,String> map=new LinkedHashMap<Integer,String>();
+        map.put(100,"Rajendra");
+        map.put(101,"Vijay");
+        map.put(102,"Technolamror");
+        for (Map.Entry e:map.entrySet()
+             ) {
+            System.out.println(e.getKey()+" "+e.getValue());
 
         }
-    }
+
+
+
+        }
+
 }
